@@ -1,2 +1,3 @@
 *.lys
 *.step
+.DS_Store
