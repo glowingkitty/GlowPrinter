@@ -6,7 +6,7 @@ This 3D printer case helps with containing your stinky 3D printer, while also ma
 
 For 3D printers up to 50cm in height, 61cm width and 45cm depth.
 
-Looking for the full 3D model of the project? [Download the "GlowPrinter case.step" file from GrabCAD](https://grabcad.com/library/glowprinter-1).
+Want to double check if you are building the case correctly? [Download the "GlowPrinter case.step" file from GrabCAD](https://grabcad.com/library/glowprinter-1).
 
 ## Required tools
 
@@ -48,12 +48,14 @@ Make sure you get real acrylic or Plexiglas - which is compatible with a lasercu
 
 ### For the air exhaust
 
-- air exhaust pipe (100mm diameter, length depends on how far away your printer case will be from the wall or window you want to connect it to)
+- **2x** air exhaust pipe (100mm diameter, length depends on how far away your printer case will be from the wall or window you want to connect it to)
 - **1x** duct fan (100mm diameter)
 - **1x** air exhaust pipe to wall connector (100mm diameter)
+- **1x** air exhaust pipe to case connector (100mm diameter)
 
 ### Other materials
 
+- **2x** door magnet pairs (screw holes distance 35mm)
 - **50x166cm (or more)** UV-blocking foil (optional for FDM printer, but mandatory for MSLA or SLA printers)
 - **1 tube** silicone glue, transparent
 
@@ -66,6 +68,8 @@ Make sure you get real acrylic or Plexiglas - which is compatible with a lasercu
 - [top.dxf](https://github.com/glowingkitty/GlowPrinter/blob/main/lasercut%20acrylic%20parts/top.dxf) => on 68x52cm (or larger), white
 - [left.dxf](https://github.com/glowingkitty/GlowPrinter/blob/main/lasercut%20acrylic%20parts/left.dxf) => on 52x52cm (or larger), transparent
 - [right.dxf](https://github.com/glowingkitty/GlowPrinter/blob/main/lasercut%20acrylic%20parts/right.dxf) => on 52x52cm (or larger), transparent
+
+And remove the protective foil on the acrylic AFTER lasercutting the plates.
 
 ### **Step 2:** Apply UV-blocking foil on the acrylic plates
 
@@ -97,20 +101,47 @@ Let's test if your LED strips work! Connect your LED strips via the WAGO connect
 
 Everything looks good? Perfect! Then we can continue.
 
-### **Step 6:** Prepare the case ceiling
+### **Step 6:** Prepare the top plate
+
+Start with fixating two door magnets to the front of the top plate, with the help of two M3 nuts and M3 12mm screws.
+
+Then insert the air exhaust pipe to case connector into the hole of the top plate - and screw it together with three M3 nuts and M3 10mm screws.
+
+![prepare top plate](readme/prepare_top_plate.gif)
 
 ### **Step 7:** Prepare the doors
 
+Connect the door handle by placing an M3 nut inside, then screw it to one of the doors with two M3 12mm screws. Next, connect the flat parts of the door magnets at the top and bottom - by using two M3 nuts and M3 12mm screws with an angled head (not the flat head). Last, screw the hinges in place, with M3 nuts and M3 8mm screws with an angled head. Afterwards repeat the same steps with the other door.
+
+![prepare doors](readme/prepare_doors.gif)
+
 ### **Step 8:** Connect the doors to the case sides
+
+![prepare doors](readme/connect_doors_to_walls.gif)
 
 ### **Step 9:** Build the case together
 
-### **Step 10:** Place & screw it to your desk
+- add M3 nuts to all the corner parts inside (pro tipp: use hot glue to block them from falling out)
+- place the bottom and side aluminium profiles together with the corner parts in their correct position
+- screw the side plates and the back plate together at the bottom
+- place the top aluminium profiles on top, then place the top plate on top - and screw everything together
+- make sure to not screw everything together super tight, before you have all the parts connected
+- once you are done, tighten all the screws completely
+
+### **Step 10:** Place the case to your desk
+
+Place the full case carefully on your desk, where you want to have it. Once the case is in it's correct position, you can use some screws to fix the case to the desk and create a strong connection. This step is optional, but recommended.
 
 ### **Step 11:** Fill the gaps with silicone glue
 
-### **Step 12:** Connect the air exhaust to your window or wall
+There will be some small gaps remaining, between the right, left, back and top acrylic plates and desk. You can fill them by using silicone glue and a silicone glue gun.
 
-### **Step 13:** Done - now enjoy your 3D printer case!
+### **Step 12:** Connect the air exhaust
+
+Take an air exhaust tube and connect it to the 3D printer case. On the other side of the tube use the duct fan (best don't place it on the case, but somewhere else). And from there connect another tube to the wall or window.
+
+### **Step 13:** Optional: connect the hole covers and air seal - or just tape to close the holes
+
+### **Step 14:** Done - now enjoy your 3D printer case!
 
 ![Gif animation of the end result](readme/GlowPrinter.gif)
